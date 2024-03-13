@@ -1,0 +1,9 @@
+truthful_qa:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/truthful_qa.csv
+
+
+tokenized_TrainingData:
+    type: pickle.PickleDataSet
+    filepath: data/05_model_input/tokenized_TrainingData.pkl
+
